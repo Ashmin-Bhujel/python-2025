@@ -20,6 +20,8 @@ print(f"x == {x}, y == {y}")
 # * NOTE: It seems like the tuple is modified but actually the list inside the tuple is modified
 random = ([0, 1, 1, 2], "Ashmin")
 print(f"Before: {random}")
+# Before: ([0, 1, 1, 2], 'Ashmin')
 
 random[0].append(3)
 print(f"After: {random}")
+# After: ([0, 1, 1, 2, 3], 'Ashmin')
