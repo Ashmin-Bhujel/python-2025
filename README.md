@@ -1,15 +1,16 @@
 # Python 2025
 
-- [ ] Basics
+- [x] Basics
   - [x] Installing Python in system
+    - [x] `sudo nala install python3-full python3-pip python3-venv`
   - [x] "Hello, World" program
   - [x] Python's inner working
-    - [x] Source code -> Byte code -> Runs on Python Virtual Machine
+    - Source code -> Byte code -> Runs on Python Virtual Machine
     - [x] Byte Code
       - Byte code is not machine code
       - Generally byte codes are hidden
       - Byte codes are also called frozen binaries
-      - byte codes or .pyc files are only generated for files that are importing some modules not for top level files
+      - Byte codes or .pyc files are only generated for files that are importing some modules not for top level files
       - Names of byte codes are in this format [name].[python implimentaion].[version].pyc
       - Standard implementation of python is cpython
       - Other implementaion of python are jython, iron python, pypy, stackless etc.
