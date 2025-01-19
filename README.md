@@ -2,6 +2,7 @@
 
 - [x] Basics
 - [x] Python Shell
-- [ ] Mutable and Imutable
+- [x] Mutable and Immutable
+- [ ] Data Types
 
-NOTE: All the notes and screenshots are in there respective topic folder
+NOTE: All the notes and screenshots are in their respective topic folder
