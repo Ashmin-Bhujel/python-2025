@@ -5,6 +5,7 @@
 - [x] Mutable and Immutable
 - [x] Data Types
 - [x] Internal Workings
-- [ ] Numbers in Depth
+- [x] Numbers in Depth
+- [ ] Strings in Depth
 
 NOTE: All the notes and screenshots are in their respective topic folder
