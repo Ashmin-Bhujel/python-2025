@@ -6,6 +6,7 @@
 - [x] Data Types
 - [x] Internal Workings
 - [x] Numbers in Depth
-- [ ] Strings in Depth
+- [x] Strings in Depth
+- [ ] Lists in Depth
 
 NOTE: All the notes and screenshots are in their respective topic folder
