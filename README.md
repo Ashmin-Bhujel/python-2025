@@ -7,6 +7,7 @@
 - [x] Internal Workings
 - [x] Numbers in Depth
 - [x] Strings in Depth
-- [ ] Lists in Depth
+- [x] Lists in Depth
+- [ ] Dictionaries in Depth
 
 NOTE: All the notes and screenshots are in their respective topic folder
