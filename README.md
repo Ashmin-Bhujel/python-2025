@@ -8,6 +8,7 @@
 - [x] Numbers in Depth
 - [x] Strings in Depth
 - [x] Lists in Depth
-- [ ] Dictionaries in Depth
+- [x] Dictionaries in Depth
+- [ ] Tuples in Depth
 
 NOTE: All the notes and screenshots are in their respective topic folder
