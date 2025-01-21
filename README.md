@@ -9,6 +9,7 @@
 - [x] Strings in Depth
 - [x] Lists in Depth
 - [x] Dictionaries in Depth
-- [ ] Tuples in Depth
+- [x] Tuples in Depth
+- [ ] Conditionals Practice
 
 NOTE: All the notes and screenshots are in their respective topic folder
