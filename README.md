@@ -10,6 +10,7 @@
 - [x] Lists in Depth
 - [x] Dictionaries in Depth
 - [x] Tuples in Depth
-- [ ] Conditionals Practice
+- [x] Conditionals Practice
+- [ ] Loops Practice
 
 NOTE: All the notes and screenshots are in their respective topic folder

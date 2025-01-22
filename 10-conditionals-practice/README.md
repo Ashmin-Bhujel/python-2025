@@ -20,22 +20,22 @@
 
   > Suggest an activity based on the weather (e.g., Sunny - Go for a walk, Rainy - Read a book, Snowy - Build a snowman).
 
-- [ ] 05 - Transportation Mode Selection
+- [x] 05 - Transportation Mode Selection
 
   > Choose a mode of transportation based on the distance (e.g., <3 km: Walk, 3-15 km: Bike, >15 km: Car).
 
-- [ ] 06 - Coffee Customization
+- [x] 06 - Coffee Customization
 
   > Customize a coffee order: "Small", "Medium", or "Large" with an option for "Extra shot" of espresso.
 
-- [ ] 07 - Password Strength Checker
+- [x] 07 - Password Strength Checker
 
   > Check if a password is "Weak", "Medium", or "Strong". Criteria: < 6 chars (Weak), 6-10 chars (Medium), >10 chars (Strong).
 
-- [ ] 08 - Leap Year Checker
+- [x] 08 - Leap Year Checker
 
   > Determine if a year is a leap year. (Leap years are divisible by 4, but not by 100 unless also divisible by 400).
 
-- [ ] 09 - Pet Food Recommendation
+- [x] 09 - Pet Food Recommendation
 
   > Recommend a type of pet food based on the pet's species and age. (e.g., Dog: <2 years - Puppy food, Cat: >5 years - Senior cat food).
