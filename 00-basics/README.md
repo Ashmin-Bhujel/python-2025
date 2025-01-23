@@ -1,7 +1,11 @@
 # Basics of Python
 
 - [x] Installing Python in system
-  - [x] `sudo nala install python3-full python3-pip python3-venv`
+
+  ```bash
+  sudo nala install python3-full python3-pip python3-venv
+  ```
+
 - [x] Create "Hello, World" program
 - [x] Python's inner working
   - Source code -> Byte code -> Runs on Python Virtual Machine
