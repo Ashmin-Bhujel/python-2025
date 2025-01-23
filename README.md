@@ -11,6 +11,7 @@
 - [x] Dictionaries in Depth
 - [x] Tuples in Depth
 - [x] Conditionals Practice
-- [ ] Loops Practice
+- [x] Loops Practice
+- [ ] Behind the scene of loops
 
 NOTE: All the notes and screenshots are in their respective topic folder

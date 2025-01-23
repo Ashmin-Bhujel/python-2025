@@ -5,5 +5,5 @@ user_input = input("Enter a string: ")
 
 for character in user_input:
     if user_input.count(character) == 1:
-        print(f"The first non-repeating characer is {character}")
+        print(f"The first non-repeating character is {character}")
         break
