@@ -1,0 +1,21 @@
+# Loops Inner Workings
+
+- iter() or \_\_iter\_\_ method
+  - If the object is iterable iter() will return response to the iteration tool with iterator object along with next() or \_\_next\_\_ method
+  - The iterator object always points to the same memory reference (first address), but the \_\_next\_\_ does some behind the scene work to iterate over the addresses
+- StopIteration exception
+- Iteration tools
+  - Loops
+  - Comprehensions
+- Iterable objects
+  - String
+  - Lists
+  - Dictionaries
+  - Sets
+  - Tuples
+  - Range
+  - Files
+    - open("filename")
+    - for files the variable and iter(variable) are same, but for other iterable objects they are different
+    - readline() (Handles StopIteration exception)
+    - next() (Raw method, Does not handle StopIteration exception)

@@ -12,6 +12,7 @@
 - [x] Tuples in Depth
 - [x] Conditionals Practice
 - [x] Loops Practice
-- [ ] Behind the scene of loops
+- [x] Loops Inner Workings
+- [ ] Functions Practice
 
 NOTE: All the notes and screenshots are in their respective topic folder
