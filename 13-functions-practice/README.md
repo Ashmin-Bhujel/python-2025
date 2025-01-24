@@ -20,22 +20,22 @@
 
   > Write a function that greets a user. If no name is provided, it should greet with a default name.
 
-- [ ] 05 - Lambda Function
+- [x] 05 - Lambda Function
 
   > Create a lambda function to compute the cube of a number.
 
-- [ ] 06 - Function with \*args
+- [x] 06 - Function with \*args
 
   > Write a function that takes variable number of arguments and returns their sum.
 
-- [ ] 07 - Function with \*\*kwargs
+- [x] 07 - Function with \*\*kwargs
 
   > Create a function that accepts any number of keyword arguments and prints them in the format key: value.
 
-- [ ] 08 - Generator Function with yield
+- [x] 08 - Generator Function with yield
 
   > Write a generator function that yields even numbers up to a specified limit.
 
-- [ ] 09 - Recursive Function
+- [x] 09 - Recursive Function
 
   > Create a recursive function to calculate the factorial of a number.

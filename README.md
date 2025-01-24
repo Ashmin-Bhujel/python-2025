@@ -1,18 +1,19 @@
 # 🐍 Learning Python in 2025
 
-- [x] Basics
-- [x] Python Shell
-- [x] Mutable and Immutable
-- [x] Data Types
-- [x] Internal Workings
-- [x] Numbers in Depth
-- [x] Strings in Depth
-- [x] Lists in Depth
-- [x] Dictionaries in Depth
-- [x] Tuples in Depth
-- [x] Conditionals Practice
-- [x] Loops Practice
-- [x] Loops Inner Workings
-- [ ] Functions Practice
+- [x] 00 - Basics
+- [x] 01 - Python Shell
+- [x] 02 - Mutable and Immutable
+- [x] 03 - Data Types
+- [x] 04 - Internal Workings
+- [x] 05 - Numbers in Depth
+- [x] 06 - Strings in Depth
+- [x] 07 - Lists in Depth
+- [x] 08 - Dictionaries in Depth
+- [x] 09 - Tuples in Depth
+- [x] 10 - Conditionals Practice
+- [x] 11 - Loops Practice
+- [x] 12 - Loops Inner Workings
+- [x] 13 - Functions Practice
+- [ ] 14 - Scopes and Closure
 
 NOTE: All the notes and screenshots are in their respective topic folder
