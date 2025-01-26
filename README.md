@@ -14,6 +14,7 @@
 - [x] 11 - Loops Practice
 - [x] 12 - Loops Inner Workings
 - [x] 13 - Functions Practice
-- [ ] 14 - Scopes and Closure
+- [x] 14 - Scopes and Closure
+- [ ] 15 - Object Oriented Programming
 
 NOTE: All the notes and screenshots are in their respective topic folder
