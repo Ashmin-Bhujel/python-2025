@@ -16,26 +16,26 @@
 
   > Modify the Car class to encapsulate the brand attribute, making it private, and provide a getter method for it.
 
-- [ ] 04 - Polymorphism
+- [x] 04 - Polymorphism
 
   > Demonstrate polymorphism by defining a method fuel_type in both Car and ElectricCar classes, but with different behaviors.
 
-- [ ] 05 - Class Variables
+- [x] 05 - Class Variables
 
   > Add a class variable to Car that keeps track of the number of cars created.
 
-- [ ] 06 - Static Method
+- [x] 06 - Static Method
 
   > Add a static method to the Car class that returns a general description of a car.
 
-- [ ] 07 - Property Decorators
+- [x] 07 - Property Decorators
 
   > Use a property decorator in the Car class to make the model attribute read-only.
 
-- [ ] 08 - Class Inheritance and isinstance() Function
+- [x] 08 - Class Inheritance and isinstance() Function
 
   > Demonstrate the use of isinstance() to check if my_tesla is an instance of Car and ElectricCar.
 
-- [ ] 09 - Multiple Inheritance
+- [x] 09 - Multiple Inheritance
 
   > Create two classes Battery and Engine, and let the ElectricCar class inherit from both, demonstrating multiple inheritance.

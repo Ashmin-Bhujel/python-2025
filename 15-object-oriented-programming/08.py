@@ -1,16 +1,11 @@
-# Inheritance
-# TODO: Create an ElectricCar class that inherits from the Car class and has an additional attribute battery_size.
-# Parent class
+# Class Inheritance and isinstance() Function
+# TODO: Demonstrate the use of isinstance() to check if my_tesla is an instance of Car and ElectricCar.
 class Car:
     def __init__(self, brand, model):
         self.brand = brand
         self.model = model
 
-    def full_name(self):
-        return f"{self.brand} {self.model}"
 
-
-# Child class
 class ElectricCar(Car):
     def __init__(self, brand, model, battery_size):
         super().__init__(brand, model)
@@ -18,5 +13,7 @@ class ElectricCar(Car):
 
 
 car = ElectricCar("Tesla", "Model S", "98kWh")
-
-print(car.full_name())
+print(isinstance(car, Car))
+# True
+print(isinstance(car, ElectricCar))
+# True
