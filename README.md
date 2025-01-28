@@ -16,6 +16,7 @@
 - [x] 13 - Functions Practice
 - [x] 14 - Scopes and Closure
 - [x] 15 - Object Oriented Programming
-- [ ] 16 - Decorators
+- [x] 16 - Decorators
+- [ ] 17 - Youtube Manager (Project)
 
 NOTE: All the notes and screenshots are in their respective topic folder
