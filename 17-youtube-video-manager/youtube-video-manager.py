@@ -18,7 +18,7 @@ def blank_input_helper():
 
 # Invalid data helper
 def invalid_data_helper(name, duration):
-    return True if name == "" or duration == "" else False
+    return not name.strip() or not duration.strip()
 
 
 # Load data helper
@@ -26,14 +26,17 @@ def load_data_helper():
     try:
         with open(FILE_NAME, "r") as data_file:
             return json.load(data_file)
-    except FileNotFoundError:
+    except (FileNotFoundError, json.JSONDecodeError):
         return []
 
 
 # Save data helper
 def save_data_helper(data):
-    with open(FILE_NAME, "w") as data_file:
-        json.dump(data, data_file)
+    try:
+        with open(FILE_NAME, "w") as data_file:
+            json.dump(data, data_file, indent=2)
+    except IOError:
+        print("\nError while saving data.")
 
 
 # Functionalities
@@ -41,10 +44,10 @@ def save_data_helper(data):
 def list_videos(data, show_title=True):
     if show_title:
         clear_screen_helper()
-        print(f"\n{"*" * 20} All Videos {"*" * 20}\n")
+        print(f"\n{'*' * 20} All Videos {'*' * 20}\n")
 
     if not data:
-        print("No video data available.")
+        print("No video data available!")
     else:
         for index, video in enumerate(data, start=1):
             print(f"[{index}] {video["name"]}, Duration: {video["duration"]}")
@@ -56,7 +59,7 @@ def list_videos(data, show_title=True):
 # Add video
 def add_video(data):
     clear_screen_helper()
-    print(f"\n{"*" * 20} Add a Video {"*" * 20}\n")
+    print(f"\n{'*' * 20} Add a Video {'*' * 20}\n")
 
     video_name = input("Enter video name: ")
     video_duration = input("Enter video duration: ")
@@ -69,6 +72,9 @@ def add_video(data):
 
         data.append(video)
         save_data_helper(data)
+
+        print(f"\n{'*' * 20} After Changes {'*' * 20}\n")
+        list_videos(data, show_title=False)
         print("\nNew video added successfully.")
     else:
         print("\nInvalid data!")
@@ -79,7 +85,7 @@ def add_video(data):
 # Update video
 def update_video(data):
     clear_screen_helper()
-    print(f"\n{"*" * 20} Update a Video Data {"*" * 20}\n")
+    print(f"\n{'*' * 20} Update a Video Data {'*' * 20}\n")
 
     list_videos(data, show_title=False)
 
@@ -87,7 +93,7 @@ def update_video(data):
     try:
         index = int(input("\nEnter index of video to be updated: "))
     except ValueError:
-        pass
+        print("\nPlease enter a number!")
 
     if 1 <= index <= len(data):
         new_name = input("\nEnter new name: ")
@@ -101,6 +107,9 @@ def update_video(data):
             data[index - 1] = new_video
 
             save_data_helper(data)
+
+            print(f"\n{'*' * 20} After Changes {'*' * 20}\n")
+            list_videos(data, show_title=False)
             print("\nVideo updated successfully.")
         else:
             print("\nInvalid data!")
@@ -113,7 +122,7 @@ def update_video(data):
 # Delete video
 def delete_video(data):
     clear_screen_helper()
-    print(f"\n{"*" * 20} Delete a Video Data {"*" * 20}\n")
+    print(f"\n{'*' * 20} Delete a Video Data {'*' * 20}\n")
 
     list_videos(data, show_title=False)
 
@@ -121,13 +130,27 @@ def delete_video(data):
     try:
         index = int(input("\nEnter index of video to be deleted: "))
     except ValueError:
-        pass
+        print("\nPlease enter a number!")
 
     if 1 <= index <= len(data):
-        del data[index - 1]
+        confirm = (
+            input(
+                f'\nAre you sure you want to delete "{data[index - 1]["name"]}" video data? (y/n): '
+            )
+            .strip()
+            .lower()
+        )
 
-        save_data_helper(data)
-        print("\nVideo deleted successfully.")
+        if confirm == "y":
+            del data[index - 1]
+
+            save_data_helper(data)
+
+            print(f"\n{'*' * 20} After Changes {'*' * 20}\n")
+            list_videos(data, show_title=False)
+            print("\nVideo deleted successfully.")
+        else:
+            print("\nDeletion cancelled.")
     else:
         print("\nInvalid video index!")
 
@@ -140,7 +163,7 @@ def main():
 
     while True:
         clear_screen_helper()
-        print(f"\n{"*" * 20} YouTube Video Manager {"*" * 20}\n")
+        print(f"\n{'*' * 20} YouTube Video Manager {'*' * 20}\n")
         print("[1] List all videos")
         print("[2] Add a video")
         print("[3] Update a video data")

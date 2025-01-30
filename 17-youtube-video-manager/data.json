@@ -1,4 +1,18 @@
 [
-  { "name": "Chai aur Python", "duration": "12hrs" },
-  { "name": "Chai aur JavaScript", "duration": "15hrs" }
+  {
+    "name": "Your Friendly Neighbourhood Spider-Man Trailer",
+    "duration": "2 mins"
+  },
+  {
+    "name": "Chai aur Python",
+    "duration": "12 hrs"
+  },
+  {
+    "name": "Be a Good Person",
+    "duration": "26 mins"
+  },
+  {
+    "name": "Chai aur JavaScript",
+    "duration": "15 hrs"
+  }
 ]
