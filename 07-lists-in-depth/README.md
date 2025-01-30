@@ -11,4 +11,4 @@
   - [x] copy
 - List comprehension (Kind of loop inside list)
 
-NOTE: More explanation inside lists_in_depth.py file
+NOTE: More explanation inside lists-in-depth.py file

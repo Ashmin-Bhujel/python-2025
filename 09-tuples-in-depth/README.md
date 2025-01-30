@@ -7,4 +7,4 @@
 - Combining two tuples
 - unwrapping of tuple (Kind a like destructuring in JavaScript)
 
-NOTE: More explanation inside tuples_in_depth.py file
+NOTE: More explanation inside tuples-in-depth.py file

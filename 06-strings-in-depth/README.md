@@ -13,4 +13,4 @@
 - Formatted strings
 - "in" operator
 
-NOTE: More detail inside strings_in_depth.py file
+NOTE: More detail inside strings-in-depth.py file

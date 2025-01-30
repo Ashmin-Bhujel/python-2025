@@ -12,4 +12,4 @@
 - Nested dictionaries
 - Dictionary comprehension
 
-NOTE: More explanation inside dictionaries_in_depth.py file
+NOTE: More explanation inside dictionaries-in-depth.py file

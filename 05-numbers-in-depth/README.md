@@ -7,4 +7,4 @@
 - The boolean value True and False are internally treated as 1 and 0 respectively
 - As a developer your intension should always be clear on what to do and first
 
-NOTE: More details inside numbers_in_depth.py file
+NOTE: More details inside numbers-in-depth.py file
