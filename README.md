@@ -17,7 +17,8 @@
 - [x] 14 - Scopes and Closure
 - [x] 15 - Object Oriented Programming
 - [x] 16 - Decorators
-- [x] 17 - Youtube Video Manager (Project)
-- [ ] 18 - Youtube Video Manager with SQLite3 (Project)
+- [x] 17 - Video Manager (Project)
+- [x] 18 - Video Manager with SQLite3 (Project)
+- [ ] 19 - API Handling
 
 NOTE: All the notes and screenshots are in their respective topic folder
