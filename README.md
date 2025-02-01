@@ -19,6 +19,6 @@
 - [x] 16 - Decorators
 - [x] 17 - Video Manager (Project)
 - [x] 18 - Video Manager with SQLite3 (Project)
-- [ ] 19 - API Handling
+- [x] 19 - API Handling
 
 NOTE: All the notes and screenshots are in their respective topic folder
