@@ -1,15 +1,9 @@
 # FastAPI
 
-- [x] Install uv (fast project and package manager for python) [ For Linux or Mac ]
-
-  ```bash
-  curl -LsSf https://astral.sh/uv/install.sh | sh
-  ```
-
 - [x] Create virtual environment
 
   ```bash
-  uv venv
+  python3 -m venv .venv
   ```
 
 - [x] Activate virtual environment
@@ -21,7 +15,7 @@
 - [x] Install FastAPI
 
   ```bash
-  uv pip install "fastapi[standard]"
+  pip install "fastapi[standard]"
   ```
 
 - [x] Run the server
