@@ -20,5 +20,6 @@
 - [x] 17 - Video Manager (Project)
 - [x] 18 - Video Manager with SQLite3 (Project)
 - [x] 19 - API Handling
+- [x] 20 - FastAPI
 
-NOTE: All the notes and screenshots are in their respective topic folder
+NOTE: All the notes and screenshots are in their respective topic folder and the cli commands are targeted for Ubuntu for other OS you have to find their respective alternatives.
